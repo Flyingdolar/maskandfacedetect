@@ -18,3 +18,7 @@ cv.namedWindow('img', cv.WINDOW_NORMAL)
 cv.imshow('img', img)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+face_cascade.load(pathf)
+
+
